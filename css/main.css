@@ -1,0 +1,79 @@
+.logo-viveros{
+	padding: 0.2rem 1rem;
+	margin-left: 0.5em;
+	width: 80%;
+}
+.navbar-fixed nav{
+	background-color: #FFFFFF !important;
+}
+nav ul a {
+    color: #007616 !important;
+    font-weight: bold;
+}
+nav ul a:hover{
+	color: #FFFFFF !important;
+	background-color: #007616 !important;
+}
+.slider .indicators {
+    margin: 50px !important;
+    z-index: 2 !important;
+}
+#video{
+	background-color: #C8D2AA;
+}
+.title-green{
+	color: #0E7316;
+	font-weight: bold;
+}
+.play-video{
+	position: absolute;
+	top: 8em;
+    left: 17em;
+}
+.img-play{
+	width: 8em;
+	height: 8em;
+}
+.img-video{
+	position: relative;
+}
+.close-video{
+	color: #666;
+	font-size: 2em;
+}
+footer{
+	background-image: url(../img/fondos/fondo-footer.jpg);
+	background-size: cover;
+	height: 100%;
+	padding: 5% 0;
+	position: relative;
+}
+.logo-curto{
+	position: absolute;
+	bottom: 1.6em;
+}
+.text-footer{
+	color: #fff;
+	font-size: 0.9em;
+}
+.text-footer a{
+	color: #fff;
+}
+.text-white{
+	color: #fff;
+}
+.boton{
+	background-color: #52A41C;
+	padding: 0.7em;
+    border-radius: 10px;
+}
+.pd-top{
+	padding-top: 1em;
+}
+footer input[type=text]{
+	background-color: #FFF !important;
+    border-radius: 7px !important;
+    padding-left: 0.2em !important;
+    height: 2.3em !important;
+    font-size: 0.9em !important;
+}

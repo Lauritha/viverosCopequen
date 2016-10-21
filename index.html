@@ -1,8 +1,3 @@
-<!--
-author: DoWhile
-date: 10/2016
-link: www.dowhile.cl
--->
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,13 +7,158 @@ link: www.dowhile.cl
     <link rel="icon" type="image/png" href="" />
 	<link rel="stylesheet" href="css/materialize.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-	<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link type="text/css" rel="stylesheet" href="css/fonts.css"/>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link type="text/css" rel="stylesheet" href="css/main.css"/>
   </head>
   <body>
+  	<div class="container-fluid">
+  		<div class="navbar-fixed">
+			<nav>
+			    <div class="nav-wrapper">
+			      <a href="#!" class="brand-logo"><img class="logo-viveros responsive-img" src="img/logos/logo-viveros.png"></a>
+			      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			      <ul class="right hide-on-med-and-down">
+			        <li><a href="#">INICIO</a></li>
+			        <li><a href="#">EMPRESA</a></li>
+			        <li><a href="#">PRODUCTOS</a></li>
+			        <li><a href="#">PROVEEDORES</a></li>
+			        <li><a href="#">CONTACTO</a></li>
+			      </ul>
+			      <ul class="side-nav" id="mobile-demo">
+			        <li><a href="#">INICIO</a></li>
+			        <li><a href="#">EMPRESA</a></li>
+			        <li><a href="#">PRODUCTOS</a></li>
+			        <li><a href="#">PROVEEDORES</a></li>
+			        <li><a href="#">CONTACTO</a></li>
+			      </ul>
+			    </div>
+			</nav>
+		</div>
+		<section id="home">
+			 <div class="slider">
+			    <ul class="slides">
+			      <li>
+			        <img src="img/fotocarrusel1.jpg"> <!-- random image -->
+			        <div class="caption left-align" style="padding-top: 3em;">
+			          <span style="font-size: 2em;">A SU SERVICIO <h3 style="display: inline-block;">DESDE 1997</h3></span>
+			        </div>
+			      </li>
+			      <li>
+			        <img src="img/fotocarrusel2.jpg"> <!-- random image -->
+			        <div class="caption center-align" style="padding-top: 3em;">
+			          <span style="font-size: 2em;">REPRESENTANTES <br><h3 style="display: inline-block; font-weight: bold;">PARA CHILE Y SUDAMERICA</h3><br>DE LAS VARIEDADES DE CEREZAS<h3 style="display: inline-block; font-weight: bold;">DE SUMMERLAND, CANADÁ</h3></span>
+			        </div>
+			      </li>
+			      <li>
+			        <img src="img/fotocarrusel3.jpg"> <!-- random image -->
+			        <div class="caption right-align" style="padding-top: 3em;">
+			          <span style="font-size: 2em;">ESTAMOS PRESENTES <br><h3 style="display: inline-block; font-weight: bold;">EN LA VI Y IX REGIONES</h3></span>
+			        </div>
+			      </li>
+			    </ul>
+			  </div>
+		</section>
+		<section id="video center-align">
+			<div class="row">
+				<div class="col s12 m12">
+					<h5 class="title-green center-align">MIRA NUESTRO VIDEO Y VIVE NUESTRA EXPERIENCIA</h5>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m6 offset-m3">
+					<div class="img-video center-align">
+						<a href="#modal1" class="play-video modal-trigger"><img src="img/boton-play.png" class="img-play responsive-img"></a>
+						<img src="img/video.jpg" class="responsive-img">
+					  <!-- Modal Structure -->
+					  <div id="modal1" class="modal">
+					  	<div class="modal-header">
+					      <a href="#!" class=" modal-action modal-close pull-right close-video"><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
+					    </div>
+					    <div class="modal-content">
+					      <iframe width="560" height="315" src="https://www.youtube.com/embed/yLcndfyrKUA" frameborder="0" allowfullscreen></iframe>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="pd-top">
+			<div class="container">
+				<div class="row">
+					<div class="col s12 m5">
+						<h6 class="text-white">CONTACTO</h6>
+						<ul>
+							<li>
+								<span class="text-footer">
+									<a href="mailto:vcopequen@ddcagricola.cl">vcopequen@ddcagricola.cl</a>
+								</span>
+							</li>
+							<li><span class="text-footer">Tel / Fax: (72) 441610 - 441606</span></li>
+							<li><span class="text-footer">Camino Público s/n, Copequen, Coinco</span></li>
+							<li><span class="text-footer">VI Región, Chile</span></li>		
+						</ul>
+						<div class="row">
+							<div class="col m12 s12">
+								<span class="text-footer">Viveros Copequen es una empresa David Del Curto</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m12">
+								<img src="img/logos/curto.png" class="logo-curto">
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m3">
+						<h6 class="text-white">LINKS</h6>
+						<ul>
+							<li>
+								<span class="text-footer">
+									<a href="http://www.daviddelcurto.cl/"><i class="fa fa-chevron-right" aria-hidden="true"></i> David Del Curto</a>
+								</span>
+							</li>
+							<li>
+								<span class="text-footer">
+									<a href="https://www.summerlandvarieties.com/"><i class="fa fa-chevron-right" aria-hidden="true"></i> Summerland Varieties</a>
+								</span>
+							</li>
+							<li>
+								<span class="text-footer">
+									<a href="http://www.viverosdechile.cl/"><i class="fa fa-chevron-right" aria-hidden="true"></i> Asociación de Viveros de Chile</a>
+								</span>
+							</li>
+							<li>
+								<span class="text-footer">
+									<a href="http://www.sag.cl/"><i class="fa fa-chevron-right" aria-hidden="true"></i> SAG - Gobierno de Chile</a>
+								</span>
+							</li>
+							<li>
+								<span class="text-footer">
+									<a href="http://www.meteochile.gob.cl/inicio.php"><i class="fa fa-chevron-right" aria-hidden="true"></i> Dirección Meteorológica de Chile</a>
+								</span>
+							</li>		
+						</ul>
+					</div>
+					<div class="col s12 m4">
+						<h6 class="text-white">DESCARGAS</h6>
+						<div class="row pd-top">
+							<div class="col s12 m12">
+								<a href="http://www.viveroscopequen.cl/recomendaciones.pdf" class="boton text-footer waves-light btn-descargas"><i class="fa fa-chevron-right" aria-hidden="true"></i> Recomendaciones para plantación</a>
+							</div>
+						</div>	
+						<h6 class="text-white pd-top">INTRANET</h6>
+						<form class="pd-top">
+							<input type="text" name="" placeholder="USUARIO">
+							<input type="text" name="" placeholder="PASSWORD">
+							<a href="#" class="boton text-white pull-right">ENTRAR</a>
+						</form>
+					</div>
+				</div>
+			</div>	
+		</footer>
+  	</div>
   	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/bin/materialize.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
