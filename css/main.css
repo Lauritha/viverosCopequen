@@ -14,6 +14,14 @@ nav ul a:hover{
 	color: #FFFFFF !important;
 	background-color: #007616 !important;
 }
+nav a:hover{
+	color: #FFFFFF !important;
+	background-color: #007616 !important;
+}
+nav a{
+	 color: #007616 !important;
+    font-weight: bold;
+}
 .slider .indicators {
     margin: 50px !important;
     z-index: 2 !important;
@@ -76,4 +84,25 @@ footer input[type=text]{
     padding-left: 0.2em !important;
     height: 2.3em !important;
     font-size: 0.9em !important;
+}
+.footer{
+	color: #fff;
+	background-color: #52A41C;
+	font-size: 0.8em;
+}
+.banner{
+	overflow: hidden;
+}
+.fondo-2{
+	width: 120%;
+}
+.green-hr{
+	border: 1px solid #52A41C;
+}
+.parrafos{
+	width: 75%;
+	font-weight: bold;
+}
+.mr-top{
+	margin-top: 4em;
 }
