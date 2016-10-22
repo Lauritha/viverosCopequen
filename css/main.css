@@ -128,6 +128,9 @@ footer input[type=text]{
 .mr-top{
 	margin-top: 4em;
 }
+.mr-bottom{
+	margin-bottom: 4em;
+}
 .bajada-productos ul li{
 	margin: 2em 0;
 }
@@ -174,4 +177,7 @@ footer input[type=text]{
 }
 .parrafo-injertos span{
 	font-size: 1.4em;
+}
+.p-light{
+	margin-left: 3em;
 }
