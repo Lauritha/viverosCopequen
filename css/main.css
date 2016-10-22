@@ -19,7 +19,7 @@ nav a:hover{
 	background-color: #007616 !important;
 }
 nav a{
-	 color: #007616 !important;
+	color: #007616 !important;
     font-weight: bold;
 }
 .slider .indicators {
@@ -74,6 +74,28 @@ footer{
 	background-color: #52A41C;
 	padding: 0.7em;
     border-radius: 10px;
+    color: #fff;
+}
+.boton-light{
+	background-color: #52A41C;
+	padding: 0.7em;
+    border-radius: 10px;
+    color: #fff;
+    padding-right: 0.9em;
+}
+.boton-dark{
+	background-color: #007616;
+	padding: 0.7em;
+    border-radius: 10px;
+    color: #fff;
+    padding-right: 6em;
+}
+.boton-rojo{
+	background-color: #F21236;
+	padding: 0.7em;
+    border-radius: 10px;
+    color: #fff;
+    padding-right: 4.2em;
 }
 .pd-top{
 	padding-top: 1em;
@@ -105,4 +127,51 @@ footer input[type=text]{
 }
 .mr-top{
 	margin-top: 4em;
+}
+.bajada-productos ul li{
+	margin: 2em 0;
+}
+.img-productos{
+	max-width: 60%;
+}
+.btn-productos{
+	background-color: #d6ff87;
+	padding: 0.5em;
+    border-radius: 10px;
+    color: #007616;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+.parrafo-productos{
+	text-align: justify;
+}
+.parrafo-injertos{
+	text-align: justify;
+	font-size: 0.9em;
+}
+.back-rojo{
+	background-color: #F21236;
+}
+.linea-blanca{
+	width: 0.1em;
+    height: 7em;
+    background-color: #fff;
+    margin: 1em 4em;
+    position: absolute;
+    right: 41em;
+}
+.linea-blanca2{
+	width: 0.1em;
+    height: 10em;
+    background-color: #fff;
+    margin: 0.5em 4em;
+    position: absolute;
+    right: 41em;
+}
+.hr-white{
+	border: 1px solid #FFF;
+}
+.parrafo-injertos span{
+	font-size: 1.4em;
 }

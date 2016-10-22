@@ -13,4 +13,14 @@
     $('.modal-trigger').leanModal();
     //Close Modal
     $('#modal1').closeModal();
+    //mostrar productos
+    $("#variedades").click(function(){
+        $("#contenido-var").toggle();
+    });
+    $("#floracion").click(function(){
+        $("#contenido-flor").toggle();
+    });
+    $("#portainjertos").click(function(){
+        $("#contenido-inj, #cuadro-injertos").toggle();
+    });
   });
