@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="" />
   <link rel="stylesheet" href="css/materialize.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link type="text/css" rel="stylesheet" href="css/main.css"/>
   </head>
@@ -58,18 +58,18 @@
           <h6 class="title-green">vcopequen@ddcagricola.cl</h6>
         </div>
         <div class="col s12 m6">
-          <form class="pd-top" id="formContacto" method="post" onsubmit="return validacion()">
+          <form class="pd-top" id="formContacto" method="post" >
               <h6 class="title-green">Nombre <span style="color: red; font-weight: bold; font-size: 1em;">*</span></h6>
               <input type="text" name="nombre" placeholder="Nombre" id="nombre">
               <h6 class="title-green">Correo <span style="color: red; font-weight: bold; font-size: 1em;">*</span></h6>
               <input type="text" name="correo" placeholder="example@domain.com" id="correo">
               <h6 class="title-green">Teléfono <span style="color: red; font-weight: bold; font-size: 1em;">*</span></h6>
               <input type="text" name="telefono" placeholder="+56 9 9999 9999" id="telefono">
-              <h6 class="title-green">Asunto</h6>
+              <h6 class="title-green">Asunto <span style="color: red; font-weight: bold; font-size: 1em;">*</span></h6>
               <input type="text" name="asunto" placeholder="Asunto" id="asunto">
               <h6 class="title-green">Mensaje <span style="color: red; font-weight: bold; font-size: 1em;">*</span></h6>
               <textarea placeholder="Mensaje" id="mensaje" name="mensaje"></textarea>
-              <button type="submit" class="boton text-white pull-right pd-top no-border-button">ENVIAR</button>
+              <input type="submit" class="boton text-white pull-right pd-top no-border-button" value="ENVIAR">
           </form>
         </div>
       </div>
@@ -175,10 +175,10 @@
               </div>
             </div>  
             <h6 class="text-white pd-top">INTRANET</h6>
-            <form class="pd-top">
-              <input type="text" name="" placeholder="USUARIO">
-              <input type="text" name="" placeholder="PASSWORD">
-              <a href="#" class="boton text-white pull-right">ENTRAR</a>
+            <form class="pd-top" id="formLogin" action="http://www.viveroscopequen.cl/intranet/codigonet/entrar" method="post" onsubmit="return validLogin()">
+              <input type="text" name="usuario" id="usuario" placeholder="USUARIO">
+              <input type="text" name="clave" id="password" placeholder="PASSWORD">
+              <input type="submit" value="ENTRAR" class="boton text-white pull-right no-border-button">
             </form>
           </div>
         </div>
@@ -195,7 +195,7 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" SRC="js/validacion.js"></script>
-    <script type="text/javascript" SRC="js/enviar.js"></script>
+    <script type="text/javascript" src="js/validacion.js"></script>
+    <script type="text/javascript" src="js/enviar.js"></script>
   </body>
 </html>

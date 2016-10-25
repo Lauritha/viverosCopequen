@@ -1,4 +1,8 @@
   $(document).ready(function(){
+    var floracion = $("#contenido-flor");
+    var variedades = $("#contenido-var");
+    var portainjertos = $("#contenido-inj, #cuadro-injertos");
+
   	$(".button-collapse").sideNav();
    	$('.slider').slider({full_width: true});
 	     // Pause slider
@@ -15,12 +19,39 @@
     $('#modal1').closeModal();
     //mostrar productos
     $("#variedades").click(function(){
-        $("#contenido-var").toggle();
+        variedades.toggle(
+          function(e){
+            this.fadeIn();
+            floracion.fadeOut();
+            portainjertos.fadeOut();
+          },
+          function(e){
+            floracion.fadeOut();
+            portainjertos.fadeOut();
+          })
     });
     $("#floracion").click(function(){
-        $("#contenido-flor").toggle();
+        floracion.toggle(
+          function(e){
+            this.fadeIn();
+            variedades.fadeOut();
+            portainjertos.fadeOut();
+          },
+          function(e){
+            variedades.fadeOut();
+            portainjertos.fadeOut(000);
+          })
     });
     $("#portainjertos").click(function(){
-        $("#contenido-inj, #cuadro-injertos").toggle();
+        portainjertos.toggle(
+          function(e){
+            this.fadeIn();
+            floracion.fadeOut();
+            variedades.fadeOut();
+          },
+          function(e){
+            floracion.fadeOut();
+            variedades.fadeOut();
+          })
     });
-  });
+});

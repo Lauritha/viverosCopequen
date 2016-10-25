@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="" />
   <link rel="stylesheet" href="css/materialize.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link type="text/css" rel="stylesheet" href="css/main.css"/>
   </head>
@@ -120,10 +120,10 @@
               </div>
             </div>  
             <h6 class="text-white pd-top">INTRANET</h6>
-            <form class="pd-top">
-              <input type="text" name="" placeholder="USUARIO">
-              <input type="text" name="" placeholder="PASSWORD">
-              <a href="#" class="boton text-white pull-right">ENTRAR</a>
+           <form class="pd-top" id="formLogin" action="http://www.viveroscopequen.cl/intranet/codigonet/entrar" method="post" onsubmit="return validLogin()">
+              <input type="text" name="usuario" id="usuario" placeholder="USUARIO">
+              <input type="text" name="clave" id="password" placeholder="PASSWORD">
+              <input type="submit" value="ENTRAR" class="boton text-white pull-right no-border-button">
             </form>
           </div>
         </div>
@@ -137,7 +137,9 @@
          </div>
     </div>
     <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/validacion.js"></script>
+    <script type="text/javascript" src="js/enviar.js"></script>
   </body>
 </html>

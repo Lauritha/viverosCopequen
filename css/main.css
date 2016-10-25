@@ -3,6 +3,7 @@
 	margin-left: 0.5em;
 	width: 80%;
 }
+
 .navbar-fixed nav{
 	background-color: #FFFFFF !important;
 }
@@ -46,8 +47,24 @@ nav a{
 	position: relative;
 }
 .close-video{
-	color: #666;
-	font-size: 2em;
+	color: #f8f8f8;
+    font-size: 1.1em;
+    position: fixed;
+    top: 11px;
+    right: 14px;
+    z-index: 1000;
+    background: #ff5555;
+    border-radius: 50px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.close-video:hover{
+	color: #f8f8f8;
+	font-size: 1.2em;
+}
+
+.bg{
+	background: rgba(20,20,20,0.4);
 }
 footer{
 	background-image: url(../img/fondos/fondo-footer.jpg);
