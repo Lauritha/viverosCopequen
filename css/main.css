@@ -218,3 +218,23 @@ footer input[type=text]{
 .mr-left{
 	margin-left: 2em;
 }
+
+#toast-container {
+  top: auto !important;
+  left: auto !important;
+  bottom: 10%;
+  left:7%;
+}
+
+.error{
+	color: #fff;
+	background-color: #ff5555;
+}
+
+.success{
+	color: #fff;
+	background-color: #52A41C;
+}
+.no-border-button{
+	border: none !important;
+}
